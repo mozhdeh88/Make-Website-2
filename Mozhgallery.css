@@ -1,15 +1,17 @@
 main{
-    background-image: url(https://setare.com/files/fa/news/1399/4/7/367723_682.jpg);
-    background-size:cover;
+    background-image: url(./ax/cover2.webp);
+    background-size: cover;
+    position: relative;  
 }
 .asl{
-    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .container{
-    border: solid rgb(65, 34, 9);
-    background-color: rgb(218, 166, 137);
+    border: solid rgb(46, 51, 1);
+    background-color: rgb(233, 233, 150);
     border-radius: 10px; 
-    position: sticky;
 }
 ul.menu li{
     display: inline-block;
@@ -22,7 +24,7 @@ ul.menu li a{
     color: black;
 }
 ul.menu li a:hover{
-    background-color: rgba(245, 164, 58, 0.952);
+    background-color: rgba(219, 96, 178, 0.952);
     border-radius: 15px;
 }
 ul.sub{
@@ -31,7 +33,7 @@ ul.sub{
 }
 ul.menu li:hover ul.sub{
     display: block;
-    background-color: rgba(235, 125, 35, 0.897);
+    background-color: rgba(235, 112, 12, 0.897);
     border-radius: 20px;
 }
 .onv{
@@ -39,14 +41,40 @@ ul.menu li:hover ul.sub{
    justify-content: center;
    align-items: center;
    border-style: solid;
+   background-color: rgb(212, 228, 171);
    border-radius: 10px;
-   margin: 80px;
+   margin: 60px;
    height: 100px;
    transition-property: all;
 }
 .onv:hover{
-    background-color: rgb(216, 255, 149);
+    background-color: rgba(28, 228, 105, 0.966);
     transition-duration: 1s;
     border-radius: 50px;
     transform: scale(1.1); 
+}
+.wct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+section article{
+    border-style: solid;
+    border-color: rgb(8, 2, 65);
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    transition: all;
+}
+article img{
+width: 300px;
+height: 400px;
+border-radius: 50%;
+}
+article img:hover{
+    transition: 1s;
+    transform: scaleX(1.1);
 }
