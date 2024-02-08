@@ -1,0 +1,10 @@
+.bio{
+    border-style: solid;
+    border-color: rgb(25, 39, 1);
+    border-radius: 30%;
+    margin: 50px;
+    padding: 50px;
+}
+img{
+    display: inline;
+}
