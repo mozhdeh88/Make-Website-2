@@ -1,10 +1,33 @@
 .bio{
     border-style: solid;
     border-color: rgb(25, 39, 1);
-    border-radius: 30%;
-    margin: 50px;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(240, 248, 169);
+}
+.im{
+    justify-content: center;
+  margin-top: 150px;
+    margin-right: auto;
+   padding: 50px;
+}
+.text{
+    margin-right: auto;
     padding: 50px;
 }
+.h22{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.h33{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img{
-    display: inline;
+    border-radius: 30px;
+}
+table,th,td{
+    padding: 4px 8px;
+    border:1px solid black;
+    font-size: 1.1rem;
 }
