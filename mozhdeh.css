@@ -1,3 +1,39 @@
+main{
+    position: relative;  
+}
+.asl{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.container{
+    border: solid rgb(46, 51, 1);
+    background-color: rgb(233, 233, 150);
+    border-radius: 10px; 
+}
+ul.menu li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+ul.menu li a{
+    display: inline-block;
+    padding: 5px;
+    color: black;
+}
+ul.menu li a:hover{
+    background-color: rgba(219, 96, 178, 0.952);
+    border-radius: 15px;
+}
+ul.sub{
+    display: none;
+    position: absolute;
+}
+ul.menu li:hover ul.sub{
+    display: block;
+    background-color: rgba(235, 112, 12, 0.897);
+    border-radius: 20px;
+}
 .bio{
     border-style: solid;
     border-color: rgb(25, 39, 1);
