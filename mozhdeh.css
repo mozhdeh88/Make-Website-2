@@ -64,9 +64,18 @@ table,th,td{
     border:1px solid black;
     font-size: 1.1rem;
 }
-@media (max-width: 720px){
-    .head .asliii{
-        width: auto;
-        height: auto;
+@media (max-width:720px){
+    .bio{
+        display: block;
+    }
+}
+@media (max-width:500px){
+    .text{
+        padding: 10px;
+    }
+}
+@media (max-width:400px){
+    .im{
+        padding: 10px;
     }
 }
