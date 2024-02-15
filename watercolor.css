@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(231, 205, 216);
+}
 main{
     position: relative;  
 }
@@ -35,7 +38,44 @@ ul.menu li:hover ul.sub{
     border-radius: 20px;
 }
 .one{
-    border: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 30px;
+}
+.one1, .one2, .one3, .one4, .one5 {
     border-style: solid;
     border-color: black;
+    width: 280px;
+    height: 450px;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(207, 225, 241);
+}
+img{
+    border-radius: 20px;
+}
+.p1{
+    margin-top: 100px;
+}
+.img2{
+    margin-left: 40px;
+}
+.img3{
+   margin-left: 20px; 
+}
+.p3{
+margin-top: 65px;
+}
+.img4{
+    margin-left: 25px;
+}
+.p4{
+    margin-top: 60px;
+}
+.p5{
+    margin-top: 100px;
 }
